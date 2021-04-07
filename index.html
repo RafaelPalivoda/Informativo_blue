@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Empreendimentos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+ 
+          window.onload = function()  {
+            CKEDITOR.replace( 'comercial' );
+            CKEDITOR.replace( 'financeiro' );
+            CKEDITOR.replace( 'engenharia' );
+            CKEDITOR.replace( 'marketing' );
+          };
+      </script>
+</head>
+<body>
+    <div class="header">
+      <a href="../index.html"><img class="logo" src="../imagens/logo-blue.svg"></a>
+    </div>
+      
+    <div class="topnav">
+      <div class="container">
+        <h1>Informativos</h1>
+      </div>
+    </div>
+
+    <div class="container criar-form">
+      <h2>Gerar Informativo</h2>
+      <form action="php/marketing.php" method="POST">
+        <div class="form-group">
+          <label for="texto" id="texto" name="texto">Nome do Empreendimento:</label>
+          <input type="text" class="form-control" id="sub_marketing" name="sub_marketing" placeholder="">
+        </div>
+        <div class="form-group">
+          <label class="form-control-label" for="">Logo do Empreendimento:</i></label>
+          <div class="custom-file input-wrapper">
+              <input type="file" class="custom-file-input" id="comprovante-res" lang="pt">
+          </div>
+       </div>
+        <div class="form-group">
+          <label for="comercial">Informativo Comercial:</label>
+          <textarea name="comercial" id="comercial" class="form-control" rows="30"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="financeiro">Informativo Financeiro:</label>
+          <textarea name="financeiro" id="financeiro" class="form-control" rows="30"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="engenharia">Informativo Engenharia:</label>
+          <textarea name="engenharia" id="engenharia" class="form-control" rows="30"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="marketing">Informativo Marketing:</label>
+          <textarea name="marketing" id="marketing" class="form-control" rows="30"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Gerar PDF</button>
+      </form>
+      <form action="php/link.php" method="POST">
+        Escreva o nome do arquivo: <input type="text" class="custom-file-input" name="nome_arquivo" lang="pt">
+        <input type="file" class="custom-file-input" name="link" lang="pt">
+        <button type="submit" class="btn btn-default">Gerar Link</button>
+      </form>
+    </div>
+
+  
+
+
+    <script src="js/ckeditor_2/ckeditor.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+/*@import url(//db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro);
+@font-face {font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot"); src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff") format("woff"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.svg#Myriad Pro") format("svg"); }
+*/*{
+  margin: 0;
+  padding: 0;
+}
+.fundo{
+  position: fixed;
+  top:0.00in;
+  left:0.00in;
+  margin-left: 63px;
+  margin-top: 200px;
+  width:17.33in;
+  height:28.59in;
+  z-index: 0;
+}
+.cabecalho{
+  position: fixed;
+  top:0in;
+  left:0in;
+  width:17.33in;
+  height:28.59in;
+  z-index: 1;
+}
+#logo_cabeca{
+  position: absolute;
+  top:1.29in;
+  left:4.2in;
+  width:2.43in;
+  z-index: 2;
+}
+#ini_cabeca{
+  position: absolute;
+  top:1.29in;
+  left:8in;
+  width:1.72in;
+  z-index: 3;
+}
+#logo_ini{
+  position:absolute;
+  top:1.28in;
+  left:7in;
+  width:0.96in;
+  height:0.75in;
+}
+#informacoes{
+  font-style:normal;
+  font-weight:normal;
+  font-size:40pt;
+  font-family:Arial;
+  color:white;
+  position: absolute;
+  z-index: 4;
+  margin-top:250px;
+  margin-left:100px;
+}
+#setor{
+  position: absolute;
+  z-index: 5;
+  font-style:normal;
+  font-weight:normal;
+  font-size:40pt;
+  font-family:Arial;
+  color:#f0dcb3;
+}
+#subtitulo{
+  font-style:normal;
+  font-weight:bold;
+  font-size:55pt;
+  font-family:Arial;
+  color:#000000;
+  position:absolute;
+  top:5in;
+  left:4.8in;
+  width:4.81in;
+  line-height:1.50in;
+  z-index: 6;
+}
+#divisor{
+  position:absolute;
+  top:0.3in;
+  left:-0.3in;
+  width:16.25in;
+  height:1.17in;
+  z-index: 7;
+}
+.texto{
+  font-family:Arial;
+  font-size: 30pt;
+  position: absolute;
+  width: 10.6in;
+  word-wrap: break-word;
+  top: 25%;
+  left: 0.3in;
+  z-index: 8;
+}
+
+#rodape{
+  z-index: 10;
+}

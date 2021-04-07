@@ -1,0 +1,20 @@
+{
+    "name": "hqssolucoes/informativo_blue",
+    "type": "project",
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "dompdf/dompdf": "^0.8.6",
+        "spatie/browsershot": "^3.41"
+    },
+    "authors": [
+        {
+            "name": "Hqs Soluções",
+            "email": "desenvolvimento@hqssolucoes.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "php/"
+        }
+    }
+}

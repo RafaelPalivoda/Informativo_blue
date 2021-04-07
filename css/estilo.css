@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', serif !important;
+    padding: 0px;
+    margin: 0;
+    background: #f1f1f1;
+  }
+  
+  .header {
+    text-align: center;
+    background: #223B69;
+    padding: 7rem 0 3rem 0px;
+  }
+
+  h1 {
+    color: white !important;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #000C22;
+  }
+
+  .topnav .container {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .form-group {
+    margin-bottom: 2.5rem !important;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    /* float: left;
+    display: block; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    width: 200px;
+    font-size: 1.6rem;
+    /* position: relative; */
+    text-transform: uppercase;
+  }
+
+
+  .criar-form {
+    padding-top: 3rem;
+    max-width: 700px;
+    padding-bottom: 8rem;
+  }
+
+  .criar-form h2 {
+    margin-bottom: 2rem;
+    color: #223B69;
+
+  }
+
+  .criar-form label{
+    text-transform: uppercase;
+  }
+
+  .criar-form .form-control{
+    font-weight: normal;
+    font-family: 'Montserrat', serif !important;
+
+  }
+  
+  .criar-form .form-control::placeholder{
+    font-weight: normal !important;
+  }
+
+  .criar-form textarea {
+    height: 260px !important;
+  }
+
+  .criar-form .btn {
+    color: white;
+    text-transform: uppercase;
+    background-color: #223B69;
+    transition: all .2s;
+    display: table;
+    margin: 0 auto;
+  }
+
+  .criar-form .btn:hover {
+    color: white;
+    text-transform: uppercase;
+    background-color: #000C22;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover, .topnav .active {
+    background-color: #ffffff47;
+    color: white;
+    text-decoration: none !important;
+  }
+  .select_inf {
+    overflow: hidden;
+    background-color:  #333;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  .logo{
+    width: 280px;
+    margin-bottom: 15px;
+  }
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  .texto textarea{
+    width: 17.33in;
+    display: flex;
+    white-space: normal;
+    height: 300px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }

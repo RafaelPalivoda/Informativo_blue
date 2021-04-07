@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="077185a9-668c-43ff-8332-8374bb700309" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/html/Informativo_comercial.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Informativo_comercial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Informativo_financeiro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Informativo_financeiro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/gerar_comercial.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/gerar_comercial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/gerar_financeiro.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/gerar_financeiro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/comercial.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/comercial.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1l4gR6o3boPHzfTc6moADl7MyYS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../brain" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="077185a9-668c-43ff-8332-8374bb700309" name="Default Changelist" comment="" />
+      <created>1606861765987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606861765987</updated>
+      <workItem from="1606861767612" duration="2323000" />
+      <workItem from="1606866066239" duration="4608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2376" y="254" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606870678329">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2376" y="254" width="530" height="605" key="FileChooserDialogImpl/1366.0.2560.1080/3926.411.1366.768/0.390.1366.768@1366.0.2560.1080" timestamp="1606870678329" />
+  </component>
+</project>
